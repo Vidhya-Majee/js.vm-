@@ -20,23 +20,23 @@
     // }
     // init();
 
-    // function outer(){
-    //     let username = "hitesh"
-    //     console.log("OUTER", secret);
-    //     function inner(){
-    //         let secret = "my123"
-    //         console.log("inner", username);
-    //     }
-    //     function innerTwo(){
-    //         console.log("innerTwo", username);
-    //         console.log(secret);
-    //     }
-    //     inner()
-    //     innerTwo()
+    function outer(){
+        let username = "vidhya"
+        console.log("OUTER", secret);
+        function inner(){
+            let secret = "my123"
+            console.log("inner", username);
+        }
+        function innerTwo(){
+            console.log("innerTwo", username);
+            console.log(secret);
+        }
+        inner()
+        innerTwo()
 
-    // }
-    // outer()
-    // console.log("TOO OUTER", username);
+    }
+    outer()
+    console.log("TOO OUTER", username);
 
 
     // function makeFunc() {
@@ -51,7 +51,7 @@
     // myFunc();
 
     </script>
-    <script>
+    <!-- <script>
         // document.getElementById("orange").onclick = function(){
         //     document.body.style.backgroundColor = `orange`
         // }
@@ -70,5 +70,5 @@
         document.getElementById('orange').onclick = clickHandler("orange")
         document.getElementById('green').onclick = clickHandler("green")
 
-    </script>
+    </script>   -->
 </html>
